@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +8,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:wght@400;700;900&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --sport-red: #DE0A0A;
             --pure-black: #000000;
             --off-white: #F5F5F7;
         }
-        
+
         body {
             font-family: 'Inter', sans-serif;
-            background: #FFFFFF;
+            background: #e6dbdb;
             color: var(--pure-black);
             margin: 0;
             padding: 0;
@@ -61,11 +62,11 @@
             box-shadow: 2px 2px 0px var(--pure-black);
         }
 
-        .font-heading { 
+        .font-heading {
             font-family: 'Geist', sans-serif;
             letter-spacing: -0.04em;
         }
-        
+
         .text-stroke {
             -webkit-text-stroke: 1px var(--pure-black);
             color: transparent;
@@ -78,8 +79,10 @@
             box-shadow: 4px 4px 0px var(--sport-red);
         }
 
-        ::-webkit-scrollbar { width: 0; }
-        
+        ::-webkit-scrollbar {
+            width: 0;
+        }
+
         /* Animación para que el sol no sature la vista */
         .solar-flare {
             position: absolute;
@@ -91,7 +94,7 @@
             pointer-events: none;
         }
     </style>
-<script type="importmap">
+    <script type="importmap">
 {
   "imports": {
     "react": "https://esm.sh/react@19.0.0",
@@ -102,13 +105,15 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/index.css">
 </head>
+
 <body>
     <div class="solar-bg"></div>
     <div class="grid-pattern"></div>
     <div class="solar-flare"></div>
     <div id="root"></div>
-<script type="module" src="/index.tsx"></script>
+    <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>
