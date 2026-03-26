@@ -127,7 +127,7 @@ const HeroRanking: React.FC<HeroRankingProps> = ({ teams, endTime }) => {
                     transition={{ duration: 3, repeat: Infinity }}
                     className="text-2xl sm:text-3xl md:text-4xl text-white/40 font-black"
                   >
-                    {timeLeft.split(':')[0]}<span className="text-[0.5em] ml-1">HORAS</span>
+                    {timeLeft.split(':')[0]}<span className="text-[0.5em] ml-1">HORAS REALIZADAS</span>
                   </motion.span>
                 )}
                 <span className="text-[14vw] sm:text-[12vw] md:text-[10vw] lg:text-[6rem] font-black leading-none text-white drop-shadow-[0_0_20px_rgba(255,255,255,0.2)]">

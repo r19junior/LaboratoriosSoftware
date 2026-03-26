@@ -6,7 +6,7 @@ import App from './App';
 const mountApp = () => {
   const rootElement = document.getElementById('root');
   if (!rootElement) {
-    console.error("No se encontró el elemento root");
+    console.error("No se encontró el elemento root en este archivo");
     return;
   }
 
