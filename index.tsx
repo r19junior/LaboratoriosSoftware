@@ -18,7 +18,7 @@ const mountApp = () => {
       </React.StrictMode>
     );
   } catch (error) {
-    console.error("Error al renderizar la aplicación:", error);
+    console.error("Error al renderizar la aplicación en el sistema:", error);
     rootElement.innerHTML = `
       <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;font-family:sans-serif;text-align:center;padding:20px;">
         <h1 style="color:#DE0A0A;margin-bottom:10px;">Error de Carga</h1>
